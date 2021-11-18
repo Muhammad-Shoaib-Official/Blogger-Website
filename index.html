@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+    <main class="inner-wrapper">
+
+   
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blooger | myblogs.com</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/aos.css">
+</head>
+<body>
+    <nav class="nav flex-row">
+        <div class="nav-bar">
+        <div class="nav-menu flex-row">
+            <div class="logo">
+                <a href="#">Blooger</a>
+            </div>
+            <div class="menu" onclick="toggleBtn()">
+                <img src="./assets/icons/menu.png" alt="Menu">
+            </div>
+        </div>
+        <div class="nav-items flex-row" id="toggle-menu">
+            <ul class="nav-item flex-row">
+                <li class="nav-link"><a href="#">Home</a></li>
+                <li class="nav-link"><a href="#">Category</a></li>
+                <li class="nav-link"><a href="#">Blogs</a></li>
+                <li class="nav-link"><a href="#">About</a></li>
+                <li class="nav-link"><a href="#">Contact</a></li>
+            </ul>
+            <div class="icons social-icon">
+                <a href="#"><img src="./assets/icons/facebook.png" alt=""></a>
+                <a href="#"><img src="./assets/icons/instagram.png" alt=""></a>
+                <a href="#"><img src="./assets/icons/twitter.png" alt=""></a>
+                <a href="#"><img src="./assets/icons/youtube.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    </nav>
+
+<section class="header"> 
+    <div class="header-wrapper">
+        <div class="overlay"></div>
+        <div class="video-wrapper">
+            <video  autoplay loop >
+                <source src="./assets/header-bg.mp4">
+            </video>
+        </div>
+        <div class="header-content text-center" >
+            <h3 class="sub-heading">Tours & Travels</h3>
+            <h1 class="heading">Amazing Place on<br> the Earth</h1>
+            <a href="" class="btn header-btn">Explore More</a>
+        </div>
+    </div> 
+</section>
+
+<section class="card">
+    <div class="card-row flex-row">
+        <div class="card-col col-3">
+            <div class="card-content">
+                <div class="card-image">
+                    <img src="./assets/Blog-post/post-1.jpg" alt="">
+                </div>               
+                <h2 class="card-title">Lorem ipsum dolor sit<br> amet consectetur</h2>
+                <a href="#" class="card-btn btn">Latest</a>
+                <span class="card-info">
+                    <p>2</p>
+                    <p>minutis</p>
+                </span>
+            </div>
+        </div>
+
+        <div class="card-col col-3">
+            <div class="card-content">
+                <div class="card-image">
+                    <img src="./assets/Blog-post/post-3.jpg" alt="">
+                </div>               
+                <h2 class="card-title">Lorem ipsum dolor sit<br> amet consectetur</h2>
+                <a href="#" class="card-btn btn">Latest</a>
+                <span class="card-info">
+                    <p>2</p>
+                    <p>minutis</p>
+                </span>
+            </div>
+        </div>
+
+        <div class="card-col col-3">
+            <div class="card-content">
+                <div class="card-image">
+                    <img src="./assets/Blog-post/post-2.jpg" alt="">
+                </div>               
+                <h2 class="card-title">Lorem ipsum dolor sit<br> amet consectetur</h2>
+                <a href="#" class="card-btn btn">Latest</a>
+                <span class="card-info">
+                    <p>2</p>
+                    <p>minutis</p>
+                </span>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+<section class="main-conact">
+    <section class="post">
+        <div class="post-wrapper">
+            <div class="post-image">
+                <img src="./assets/Blog-post/blog1.png" alt="Blog-post">
+            </div>
+            <div class="blog-post-info"></div>
+            <h1 class="blog-heading">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h1>
+            <p class="post-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim quis, ratione minus velit eaque accusantium, doloribus dolores et cupiditate asperiores facere laudantium eveniet vitae modi expedita! In porro provident tenetur dolore similique corporis. Explicabo earum at modi pariatur. Nesciunt qui repellendus perspiciatis necessitatibus libero? Laudantium adipisci repellendus sint nisi earum cum praesentium sit quis facere in totam, laborum recusandae atque!</p>
+            <a href="#" class="btn blog-btn">Read More &#8594;</a>
+            <hr class="line">
+        </div>
+        
+        <div class="post-wrapper">
+            <div class="post-image">
+                <img src="./assets/Blog-post/blog2.png" alt="Blog-post">
+            </div>
+            <div class="blog-post-info"></div>
+            <h1 class="blog-heading">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h1>
+            <p class="post-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim quis, ratione minus velit eaque accusantium, doloribus dolores et cupiditate asperiores facere laudantium eveniet vitae modi expedita! In porro provident tenetur dolore similique corporis. Explicabo earum at modi pariatur. Nesciunt qui repellendus perspiciatis necessitatibus libero? Laudantium adipisci repellendus sint nisi earum cum praesentium sit quis facere in totam, laborum recusandae atque!</p>
+            <a href="#" class="btn blog-btn">Read More &#8594;</a>
+            <hr class="line">
+        </div>
+
+        <div class="post-wrapper">
+            <div class="post-image">
+                <img src="./assets/Blog-post/blog3.png" alt="Blog-post">
+            </div>
+            <div class="blog-post-info"></div>
+            <h1 class="blog-heading">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h1>
+            <p class="post-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim quis, ratione minus velit eaque accusantium, doloribus dolores et cupiditate asperiores facere laudantium eveniet vitae modi expedita! In porro provident tenetur dolore similique corporis. Explicabo earum at modi pariatur. Nesciunt qui repellendus perspiciatis necessitatibus libero? Laudantium adipisci repellendus sint nisi earum cum praesentium sit quis facere in totam, laborum recusandae atque!</p>
+            <a href="#" class="btn blog-btn">Read More &#8594;</a>
+            <hr class="line">
+        </div>
+
+        <div class="post-wrapper">
+            <div class="post-image">
+                <img src="./assets/Blog-post/blog4.png" alt="Blog-post">
+            </div>
+            <div class="blog-post-info"></div>
+            <h1 class="blog-heading">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h1>
+            <p class="post-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim quis, ratione minus velit eaque accusantium, doloribus dolores et cupiditate asperiores facere laudantium eveniet vitae modi expedita! In porro provident tenetur dolore similique corporis. Explicabo earum at modi pariatur. Nesciunt qui repellendus perspiciatis necessitatibus libero? Laudantium adipisci repellendus sint nisi earum cum praesentium sit quis facere in totam, laborum recusandae atque!</p>
+            <a href="#" class="btn blog-btn">Read More &#8594;</a>
+            <hr class="line">
+        </div>
+        <div class="pagination post-pagination">
+            <div class="pagination-content">
+                <span>&lt;</span>
+                <span class="pagination-item">1</span>
+                <span class="pagination-item">2</span>
+                <span class="pagination-item">3</span>
+                <span>&gt;</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="aside">
+        
+        <div class="category">
+            <h3 class="category-heading">Category</h3>
+            <ul>
+                <li class="category-item">
+                    <span>Softeware</span>
+                    <span>(05)</span>
+                </li>
+                <li class="category-item">
+                    <span>Technology</span>
+                    <span>(03)</span>
+                </li>
+                <li class="category-item">
+                    <span>Life Style</span>
+                    <span>(09)</span>
+                </li>
+                <li class="category-item">
+                    <span>Food</span>
+                    <span>(07)</span>
+                </li>
+                <li class="category-item">
+                    <span>Shopping</span>
+                    <span>(06)</span>
+                </li>
+                
+            </ul>
+        </div>
+        <div class="poplar">
+            <h3 class="category-heading poplar-heading">poplar Post</h3>
+            <div class="post-wrapper aside-post">
+                <div class="post-image">
+                    <img src="./assets/popular-post/m-blog-1.jpg" alt="Blog-post">
+                </div>
+                <div class="blog-post-info"></div>
+                <h1 class="blog-heading blog-heading">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h1>
+            </div>
+            <div class="post-wrapper aside-post">
+                <div class="post-image">
+                    <img src="./assets/popular-post/m-blog-2.jpg" alt="Blog-post">
+                </div>
+                <div class="blog-post-info"></div>
+                <h1 class="blog-heading blog-heading">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h1>
+            </div>
+            <div class="post-wrapper aside-post">
+                <div class="post-image">
+                    <img src="./assets/popular-post/m-blog-3.jpg" alt="Blog-post">
+                </div>
+                <div class="blog-post-info"></div>
+                <h1 class="blog-heading blog-heading">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h1>
+            </div>
+            <div class="post-wrapper aside-post">
+                <div class="post-image">
+                    <img src="./assets/popular-post/m-blog-4.jpg" alt="Blog-post">
+                </div>
+                <div class="blog-post-info"></div>
+                <h1 class="blog-heading blog-heading">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h1>
+            </div>
+            <div class="post-wrapper aside-post">
+                <div class="post-image">
+                    <img src="./assets/popular-post/m-blog-5.jpg" alt="Blog-post">
+                </div>
+                <div class="blog-post-info"></div>
+                <h1 class="blog-heading blog-heading">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h1>
+            </div>
+
+        </div>
+       <div class="newsletter">
+        <h3 class="category-heading newsletter-heading">Newsletter</h3>
+        <div class="newsletter-content">
+            <input type="email" class="email" placeholder="Email" >
+            <a href="#" class="btn blog-btn subscribe-btn">Subscribe</a>
+        </div>
+       </div>
+       <div class="poplar-tags">
+        <h3 class="category-heading">Poplar Tags</h3>
+       </div>
+       <div class="tags">
+           <div class="tags-content">
+            <span class="tags-item">Softeware</span>
+            <span class="tags-item">Food</span>
+            <span class="tags-item">Travels</span>
+            <span class="tags-item">Technology</span>
+            <span class="tags-item">Food</span>
+            <span class="tags-item">Travels</span>
+            <span class="tags-item">Shopping</span>
+            <span class="tags-item">Lif Style</span> 
+           </div>
+       </div>
+       <div class="pagination aside-pagination">
+        <div class="pagination-content">
+            <span>&lt;</span>
+            <span class="pagination-item">1</span>
+            <span class="pagination-item">2</span>
+            <span class="pagination-item">3</span>
+            <span>&gt;</span>
+        </div>
+    </div>
+    </section>
+</section>
+
+<footer class="footer">
+    <div class="footer-content flex-row">
+        <div class="col-4">
+            <h2 class="footer-heading">About Us</h2>
+            <p class="footer-about-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor quidem, atque, tempora quod error dignissimos ab vero unde ipsum ullam officiis, quaerat aliquam maiores.!</p>
+        </div>
+        <div class="col-4">
+            <h3 class="footer-heading">Newsletter</h3>
+            <input type="email" class="email" placeholder="Email" ><br>
+            <a href="#" class="btn blog-btn subscribe-btn footer-btn">Subscribe</a>
+        </div>
+        <div class="col-4">
+            <h3 class="footer-heading">Instagram</h3>
+            <div class="insta-row">
+                <div class="insta-col-3">
+                    <img src="./assets/instagram/thumb-card3.png" alt="">
+                </div>
+                <div class="insta-col-3">
+                    <img src="./assets/instagram/thumb-card4.png" alt="">
+                </div>
+                <div class="insta-col-3">
+                    <img src="./assets/instagram/thumb-card5.png" alt="">
+                </div>
+            </div>
+            <div class="insta-row">
+                <div class="insta-col-3">
+                    <img src="./assets/instagram/thumb-card6.png" alt="">
+                </div>
+                <div class="insta-col-3">
+                    <img src="./assets/instagram/thumb-card7.png" alt="">
+                </div>
+                <div class="insta-col-3">
+                    <img src="./assets/instagram/thumb-card8.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="col-4">
+                <div class="links">
+                    <h2 class="footer-heading">Follow Us</h2>
+                        <span class="footer-icons">
+                            <a href="#"><img src="./assets/icons/facebook.png" alt=""></a>
+                            <a href="#"><img src="./assets/icons/instagram.png" alt=""></a>
+                            <a href="#"><img src="./assets/icons/twitter.png" alt=""></a>
+                            <a href="#"><img src="./assets/icons/youtube.png" alt=""></a>
+                        </span>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+    <hr class="footer-hr">
+    <p class="copyright"> Blooger.com &copy;Reservide 2021</p>
+</footer>
+
+    
+
+</main>
+    <script src="./js/main.js"></script>
+    <script src="./js/aos.js"></script>
+</body>
+</html>
